@@ -13,3 +13,21 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+const logo = [
+  {
+    title: "GitHub",
+    image: "./assets/img/logo/github.svg",
+  },
+  {
+    title: "Linkedin",
+    image: "./assets/img/logo/linkedin.svg",
+  },
+  {
+    title: "Instagram",
+    image: "./assests/img/logoinstagram.png",
+  },
+];
+</script>
+

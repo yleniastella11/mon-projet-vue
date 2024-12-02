@@ -1,15 +1,29 @@
 <template>
-    <h1>Portfolio de Ylenia Stella</h1>
+    <div class="logo">
+      <a href="./src/assets/logo.svg" target="_blank">
+        <img src="./src/assets/logo.svg" alt="logo">
+      </a>
+    </div>
 </template>
 
 <script setup>
 const logo = [
   {
     title: "link-img",
-    image: "vue-project/src/assets/logo.svg",
+    image: "./src/assets/logo.svg",
   },
   ];
   // Affciher le logo au survol
 
 </script>
+
+<style scoped>
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+</style>
 

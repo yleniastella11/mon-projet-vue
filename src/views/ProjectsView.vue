@@ -1,9 +1,9 @@
 <template>
     <main>
     <div class="gallery">
-      <h4>Mes projets</h4>
+      <h3>Mes projets</h3>
         <section v:for="project in projects">
-          <h5>{{ project.title }}</h5>
+          <h4>{{ project.title }}</h4>
         </section>
     </div>
     </main>
@@ -34,30 +34,27 @@ const projects = [
 </script>
 
 <style scoped>
-main {
-  color: black;
-  background-color: #438BDE;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  margin-top: 1rem;
+.gallery {
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 200px;
+  height: 200px;
 }
 
-h4 {
+h3 {
   text-align: center;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  padding: 1rem;
+  color: black;
   background-color: #00b9b1;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 10px;
-  width: 200px;
-  height: 150px;
-  border-radius: 5px;
+h4{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  padding: 1rem;
 }
 </style>

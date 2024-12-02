@@ -2,6 +2,7 @@
   <Header />
   <main>
     <RouterView />
+    <p />
   </main>
   <Footer />
 </template>
@@ -21,71 +22,63 @@ const logo = [
 </script>
 
 <style scoped>
-header, main, footer {
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+header, main, footer{
+  width: 700px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 header {
+  color: black;
   background-color: #1F72D4;
   line-height: 1.5;
+  margin: auto;
 }
 
-header img {
-  display: block;
-  width: 400px;
-  height: 400px;
-  margin: auto 4px;
-}
-
-h1 {
+header h1 {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   color: black;
   background-color: white;
   font-size: larger;
-  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-img {
-  display: block;
-  width: 200px;
-  height: 200px;
-}
-
-h2 {
-  color: black;
+header img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
   margin: auto;
-  font-size: 45px;
+  padding: 1rem;
 }
 
 main {
-  width: 65%;
-  margin: 2.5rem;
-  color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: #C9A6EB;
+    text-align: center;
+    margin: auto;
 }
 
-nav {
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 1rem;
-  color: white;
-}
 
 footer {
-  background-color: #0682D3;
-  padding: 0.1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #1F72D4;
 }
 
 .logo-media {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-footer img {
-  display: block;
+  display: inline-flex;
   justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 </style>

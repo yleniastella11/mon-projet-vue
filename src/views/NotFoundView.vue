@@ -15,3 +15,27 @@ imgElement.src = Image;
 document.body.appendChild(imgElement);
 // Page 404
 </script>
+
+<style scoped>
+h1 {
+  color: white;
+  background-color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+h2 {
+  color: white;
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+img {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  padding: 1rem;
+}
+</style>
