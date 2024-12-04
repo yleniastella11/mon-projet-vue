@@ -32,10 +32,10 @@ h2 {
 }
 
 img {
-  display: flex;
+  margin: auto;
   width: 400px;
   height: 400px;
-  margin: auto;
   padding: 1rem;
+  display: block;
 }
 </style>

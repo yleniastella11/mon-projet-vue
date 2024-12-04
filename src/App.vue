@@ -46,12 +46,12 @@ header h1 {
 }
 
 header img {
-    display: flex;
+    margin: auto;
     justify-content: center;
     width: 100px;
     height: 100px;
-    margin: auto;
     padding: 1rem;
+    display: block;
 }
 
 main {
@@ -67,7 +67,7 @@ footer {
 }
 
 .logo-media {
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     width: 50px;
     height: 50px;

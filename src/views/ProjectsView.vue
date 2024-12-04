@@ -35,6 +35,7 @@ const projects = [
 
 <style scoped>
 .gallery {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
