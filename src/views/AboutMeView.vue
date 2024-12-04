@@ -17,6 +17,6 @@
 main {
   color: black;
   background-color: #C9A6EB;
-  margin: auto; 
+  padding: 2rem;
 }
 </style>
