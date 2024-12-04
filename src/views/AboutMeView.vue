@@ -13,3 +13,10 @@
   </main>
 </template>
 
+<style scoped>
+main {
+  color: black;
+  background-color: #C9A6EB;
+  margin: auto; 
+}
+</style>
