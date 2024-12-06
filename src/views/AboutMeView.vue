@@ -1,8 +1,5 @@
 <template>
   <div class="aboutme">
-  <a href="./src/assets/IMG_2731.JPG" target="_blank">
-    <img id="photode profil" src="./assets/profile-picture.jpg" alt="photo de profil de Ylenia Stella">
-  </a>
     <p>
     Je m'appelle Stella Ylenia, j'apprends le développement web via le CEF. 
     Avant de me lancer dans cette formation, je voulais entrer dans la gendarmerie mais ayant eu un petit soucis au niveau de ma santé physique après une opération de la main quelques années auparavant, j'ai dû me résoudre abandonner ce projet. 
@@ -23,22 +20,13 @@
 </template>
 
 <style scoped>
-div {
-  width: 50%;
-  margin: auto;
+.aboutme {
   color: black;
-  background-color: #C9A6EB;
-}
-
-div img {
-  display: inline-block;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
 }
 
 p {
-  margin: auto; 
+  width: 650px;
+  background-color: #636097;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

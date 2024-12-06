@@ -72,14 +72,15 @@ address {
 
 
 .aboutme {
-  width: 650px;
   color:black
 }
 
 p {
+  width: 650px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #636097;
 }
+
 .gallery {
   display: flex;
   flex-direction: column;
