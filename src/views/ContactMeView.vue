@@ -10,8 +10,15 @@
 </template>
 
 <style scoped>
+h2 {
+  color: black;
+  background-color: #00b9b1;
+}
+
 .address {
-  width: 50%;
+  width: 94.5%;
+  display: flex;
+  justify-content: space-between;
   margin: auto 5px;
   padding: 3rem;
   line-height: 1.5;

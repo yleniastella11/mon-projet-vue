@@ -21,13 +21,15 @@
 
 <style scoped>
 .aboutme {
-  color: black;
+  width: 50%;
+  margin: auto;
+  color:black
 }
 
 p {
-  width: 650px;
-  background-color: #636097;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #636097;
+  margin: auto;
 }
 
 </style>

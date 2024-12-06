@@ -49,18 +49,24 @@ header h1 {
 }
 
 header img {
+    background-color: #69447D;
     display: inline-block;
     justify-content: center;
     width: 150px;
     height: 150px;
+    padding: 3rem;
+    border-radius: 55%;
 }
 
-h2 {
+header h2 {
   color: black;
+  background-color: #00b9b1;
 }
 
 .address {
-  width: 50%;
+  width: 94.5%;
+  display: flex;
+  justify-content: space-between;
   margin: auto 5px;
   padding: 3rem;
   line-height: 1.5;
@@ -105,15 +111,40 @@ h4{
 }
 
 footer {
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: auto;
   background-color: #69447D;
 }
 
 .logo-media {
-    display: inline-block;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+}
+
+.notfound {
+  h1 {
+    color: white;
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+  }
+  h2 {
+    color: white;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+  img {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding: 1rem;
+    display: block;
+  }
 }
 </style>

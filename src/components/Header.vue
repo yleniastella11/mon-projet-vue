@@ -54,16 +54,19 @@ const img = [
 
 <style scoped>
 header {
-    color: black;
-    line-height: 1.5;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  margin: auto;
 }
 
 header h1 {
-    color: black;
-    background-color: #69447D;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #69447D;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header img {
