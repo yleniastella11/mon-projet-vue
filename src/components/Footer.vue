@@ -31,3 +31,17 @@ const logo = [
 ];
 </script>
 
+<style scoped>
+footer {
+  align-items: center;
+  margin: auto;
+  background-color: #69447D;
+}
+
+.logo-media {
+  display: inline-block;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+</style>

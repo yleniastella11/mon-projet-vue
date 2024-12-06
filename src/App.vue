@@ -21,12 +21,8 @@ const logo = [
 
 <style scoped>
 header, footer {
-  width: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  width: 750px;
+  margin: auto;
 }
 
 .logo {
@@ -38,7 +34,9 @@ header, footer {
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   line-height: 1.5;
   margin: auto;
 }
@@ -61,7 +59,7 @@ h2 {
   color: black;
 }
 
-address {
+.address {
   width: 50%;
   margin: auto 5px;
   padding: 3rem;
@@ -70,13 +68,15 @@ address {
 
 
 .aboutme {
+  width: 50%;
+  margin: auto;
   color:black
 }
 
 p {
-  width: 650px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #636097;
+  margin: auto;
 }
 
 .gallery {

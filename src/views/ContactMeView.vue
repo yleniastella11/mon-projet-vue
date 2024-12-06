@@ -10,10 +10,10 @@
 </template>
 
 <style scoped>
-div {
-    width: 50%;
-    margin: 3rem;
-    background-color: #209CD8;
-    color: black;
+.address {
+  width: 50%;
+  margin: auto 5px;
+  padding: 3rem;
+  line-height: 1.5;
 }
 </style>
