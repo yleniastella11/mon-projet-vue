@@ -1,9 +1,9 @@
 <template>
   <Header />
-  <main>
+  <div>
     <RouterView />
     <p />
-  </main>
+  </div>
   <Footer />
 </template>
 
@@ -22,48 +22,93 @@ const logo = [
 </script>
 
 <style scoped>
-header, main, footer {
-    width: 700px;
-    display: flex; /* Ajouté pour activer Flexbox */
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+header, footer {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
 }
 
 header {
-    color: black;
-    background-color: #1F72D4;
-    line-height: 1.5;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+  margin: auto;
 }
 
 header h1 {
-    color: black;
-    background-color: white;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #69447D;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header img {
-    margin: auto;
+    display: inline-block;
     justify-content: center;
-    width: 100px;
-    height: 100px;
-    padding: 1rem;
-    display: block;
+    width: 150px;
+    height: 150px;
 }
 
-main {
+h2 {
   color: black;
-  background-color: #C9A6EB;
-  margin: auto; 
+}
+
+address {
+  width: 50%;
+  margin: auto 5px;
+  padding: 3rem;
+  line-height: 1.5;
+}
+
+
+.aboutme {
+  width: 650px;
+  color:black
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #636097;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  padding: 1rem;
+  color: black;
+  background-color: #00b9b1;
+}
+
+h4{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  padding: 1rem;
 }
 
 footer {
-    align-items: center;
-    margin: auto;
-    background-color: #1F72D4;
+  align-items: center;
+  margin: auto;
+  background-color: #69447D;
 }
 
 .logo-media {

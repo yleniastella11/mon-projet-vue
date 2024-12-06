@@ -1,6 +1,6 @@
 <template>
     <div class="address">
-      <h3>Mes contacts</h3>
+      <h2>Mes contacts</h2>
       <address>
         <a href="25A rue de Schoeneck>25A">rue de Schoeneck</a>
         <a href="mailto:ylenia.stella@outlook.fr">ylenia.stella@outlook.fr</a>

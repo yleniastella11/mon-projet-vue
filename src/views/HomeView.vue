@@ -21,9 +21,8 @@ const logo = [
 .logo {
   display: flex;
   justify-content: center;
-  width: 150px;
-  height: 150px;
-  background-color: black;
+  width: 50px;
+  height: 50px;
 }
 </style>
 
