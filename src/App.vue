@@ -17,8 +17,6 @@ const logo = [
     image: "src/assets/logo.svg",
   },
   ];
-  // Affciher le logo au survol
-
 </script>
 
 <style scoped>
