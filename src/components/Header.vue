@@ -54,12 +54,12 @@ const img = [
 
 <style scoped>
 header {
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: center;
   text-align: center;
   line-height: 1.5;
   margin: auto;
+  padding: 0.01rem;
 }
 
 header h1 {

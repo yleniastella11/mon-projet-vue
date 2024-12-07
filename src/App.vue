@@ -23,6 +23,7 @@ const logo = [
 header, footer {
   width: 750px;
   margin: auto;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,12 +34,12 @@ header, footer {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: center;
   text-align: center;
   line-height: 1.5;
   margin: auto;
+  padding: 0.01rem;
 }
 
 header h1 {
@@ -111,10 +112,11 @@ h4{
 }
 
 footer {
-  flex-direction: column;
+  display: block;
   justify-content: center;
   align-items: center;
   background-color: #69447D;
+  padding: 0.01rem;
 }
 
 .logo-media {

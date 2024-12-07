@@ -33,10 +33,11 @@ const logo = [
 
 <style scoped>
 footer {
-  flex-direction: column;
+  display: block;
   justify-content: center;
   align-items: center;
   background-color: #69447D;
+  padding: 0.01rem;
 }
 
 .logo-media {
