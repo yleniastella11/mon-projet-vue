@@ -15,18 +15,21 @@ const projects = [
       title: "CV",
       image: "./src/assets/img/cv.png",
       technos : "html,css",
-      link: "https://github.com/yleniastella11/cv-main"
+      link: "https://github.com/yleniastella11/cv-main",
+      time: 3/7/2024,
     },
     {
       title: "Dynamiser un espace commentaire",
       image: "./src/assets/img/dynamiserunespacecommentaire.png",
       technos: "javascript",
-      link: "https://github.com/yleniastella11/commentaire"
+      link: "https://github.com/yleniastella11/commentaire",
+      time: 30/8/2024,
     },
     {
       title: "Le cahier des charges",
       image: "./src/assets/img/cahierdescharges.pdf",
       technos: "word",
+      time: 19/6/2024,
     },
   ];
 
