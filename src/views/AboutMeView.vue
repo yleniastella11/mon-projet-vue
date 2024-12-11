@@ -11,6 +11,7 @@
     <p>
     Cependant, ma main m'a (re)lachée brusquement. J'ai vu des spécialistes qui m'ont affirmés que même si ça ira mieux, j'aurai toujours une certaine fragilité à ce niveau.
     Mes rêves d'entrée un jour dans la gendarmerie se sont donc éteints, il fallait que je trouve quelque chose pour mon avenir. 
+    Je me suis donc rappelée qu'en licence j'avais des cours de culture numérique et où l'on apprenait les balises. Ces cours me plaisait plutôt bien.
     </p>
     <p>
     Je suis tombée sur une vidéo parlant du développement web. Je me suis d'abord informée sur ce métier pendant plusieurs mois avant de me lancer.
