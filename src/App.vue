@@ -1,9 +1,11 @@
 <template>
   <Header />
+  <main>
   <div>
     <RouterView />
     <p />
   </div>
+  </main>
   <Footer />
 </template>
 
@@ -20,19 +22,6 @@ const logo = [
 </script>
 
 <style scoped>
-header, footer {
-  width: 750px;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-}
-
 header {
   display: block;
   justify-content: center;
@@ -43,34 +32,42 @@ header {
 }
 
 header h1 {
-  color: white;
+  color: black;
   background-color: #69447D;
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
 }
 
 header img {
-    background-color: #69447D;
-    display: inline-block;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    padding: 3rem;
-    border-radius: 55%;
-}
-
-header h2 {
-  color: black;
-  background-color: #00b9b1;
+  background-color: #A3547C;
+  display: inline-block;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 55%;
 }
 
 .address {
-  width: 94.5%;
-  display: flex;
-  justify-content: space-between;
-  margin: auto 5px;
-  padding: 3rem;
-  line-height: 1.5;
+  color: white;
+  background-color: #D89EF0;
+}
+
+address a {
+    color: white;
+    text-align: left;  
+    padding: 3rem;
+}
+
+address a {
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+address a {
+    color: white;
+    text-align: right;
+    padding: 3rem;
 }
 
 
@@ -112,20 +109,14 @@ h4{
 }
 
 footer {
-  display: block;
-  justify-content: center;
-  align-items: center;
   background-color: #69447D;
-  padding: 0.01rem;
 }
 
 .logo-media {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+  width: 35px;
+  height: 35px;
 }
 
 .notfound {

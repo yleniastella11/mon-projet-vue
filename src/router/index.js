@@ -29,7 +29,7 @@ const router = createRouter({
       component: Contactme,
     },
     {
-      path: '/:catchAll(.)',
+      path: '/:catchAll(.*)',
       name: 'notfound',
       component: NotFound,
     },

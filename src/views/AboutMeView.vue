@@ -29,8 +29,9 @@
 
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #636097;
+  background-color: #2290A9;
   margin: auto;
 }
+
 
 </style>

@@ -1,13 +1,41 @@
 <template>
-    <div class="address">
-      <h2>Mes contacts</h2>
-      <address>
-        <a href="25A rue de Schoeneck>25A">rue de Schoeneck</a>
-        <a href="mailto:ylenia.stella@outlook.fr">ylenia.stella@outlook.fr</a>
-        <a href="tel:0764331723">0764331723</a>
-      </address>
+    <div class="contact">
+      <h2>Me contacter</h2>
+      <form>
+        <label>
+          Nom
+          <input type="text" name="">
+        </label>
+        <label>
+          Prénom
+          <input type="text" name="">
+        </label>
+        <label>
+          Adresse  e-mail
+          <input type="text" name="">
+        </label>
+        <label>
+          Message
+          <input type="submit" value="envoyer">
+        </label>
+      </form>
     </div>
-</template>
+</template> 
+
+<script setup>
+document.getElementById('monFormulaire').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const nom = document.getElementById('nom').value;
+    const prenom = document.getElementById('prenom').value;
+    const email = document.getElementById('email').value;
+
+    console.log('Nom:', nom);
+    console.log('Prénom:', prénom);
+    console.log('Email:', email);
+  });
+
+</script>
 
 <style scoped>
 h2 {
@@ -15,7 +43,7 @@ h2 {
   background-color: #00b9b1;
 }
 
-.address {
+.contact {
   width: 94.5%;
   display: flex;
   justify-content: space-between;

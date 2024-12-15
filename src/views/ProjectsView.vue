@@ -1,12 +1,11 @@
 <template>
-    <main>
     <div class="gallery">
       <h3>Mes projets</h3>
-        <section v:for="project in projects">
+        <section v-for="project in projects">
           <h4>{{ project.title }}</h4>
+          <img :src="project.image" alt="">
         </section>
     </div>
-    </main>
 </template>
 
 <script setup>
@@ -18,7 +17,7 @@ const projects = [
       link: "https://github.com/yleniastella11/cv-main",
       time: 3/7/2024,
     },
-    {
+    { 
       title: "Dynamiser un espace commentaire",
       image: "./src/assets/img/dynamiserunespacecommentaire.png",
       technos: "javascript",
@@ -27,7 +26,7 @@ const projects = [
     },
     {
       title: "Le cahier des charges",
-      image: "./src/assets/img/cahierdescharges.pdf",
+      image: "./src/assets/img/lechahierdescharges.png",
       technos: "word",
       time: 19/6/2024,
     },
@@ -42,8 +41,8 @@ const projects = [
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 90px;
+  height: 90px;
 }
 
 h3 {
