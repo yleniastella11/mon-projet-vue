@@ -1,23 +1,24 @@
 <template>
-    <div class="contact">
+    <div id="contact">
       <h2>Me contacter</h2>
       <form>
         <label>
           Nom
-          <input type="text" name="">
+          <input type="text" name="name" id="sendername">
         </label>
         <label>
           Prénom
-          <input type="text" name="">
+          <input type="text" name="prenom" id="senderfirstname">
         </label>
         <label>
           Adresse  e-mail
-          <input type="text" name="">
+          <input type="text" name="email" id="senderemail">
         </label>
         <label>
           Message
-          <input type="submit" value="envoyer">
+          <input type="submit" name="email" value="envoyer">
         </label>
+          <textarea name="" id="message"></textarea>
       </form>
     </div>
 </template> 

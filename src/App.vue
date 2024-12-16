@@ -13,6 +13,7 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import { RouterView } from "vue-router";
+import Contact from "./views/ContactMeView.vue"
 const logo = [
   {
     title: "link-img",
@@ -71,10 +72,13 @@ address a {
 }
 
 
-.aboutme {
-  width: 50%;
-  margin: auto;
-  color:black
+.contact {
+  width: 94.5%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 5px;
+  padding: 3rem;
+  line-height: 1.5;
 }
 
 p {
