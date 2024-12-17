@@ -24,18 +24,9 @@
 </template> 
 
 <script setup>
-document.getElementById('monFormulaire').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-
-    const nom = document.getElementById('nom').value;
-    const prenom = document.getElementById('prenom').value;
-    const email = document.getElementById('email').value;
-
-    console.log('Nom:', nom);
-    console.log('Prénom:', prénom);
-    console.log('Email:', email);
-  });
-
+function messageSent() {
+  alert("Formulaire enbvoyé !");
+}
 </script>
 
 <style scoped>

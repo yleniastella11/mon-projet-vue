@@ -30,6 +30,7 @@ header {
   line-height: 1.5;
   margin: auto;
   padding: 0.01rem;
+  background-color: #9899E8;
 }
 
 header h1 {
@@ -71,6 +72,9 @@ address a {
     padding: 3rem;
 }
 
+main {
+  background-color: #2290A9;
+}
 
 .contact {
   width: 94.5%;

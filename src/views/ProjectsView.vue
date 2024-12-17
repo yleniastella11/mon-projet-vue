@@ -16,7 +16,7 @@ const projects = [
       technos : "html,css",
       link: "https://github.com/yleniastella11/cv-main",
       time: 3/7/2024,
-    },
+    },    
     { 
       title: "Dynamiser un espace commentaire",
       image: "./src/assets/img/dynamiserunespacecommentaire.png",
@@ -26,23 +26,17 @@ const projects = [
     },
     {
       title: "Le cahier des charges",
-      image: "./src/assets/img/lechahierdescharges.png",
+      image: "./src/assets/img/lecahierdescharges.png",
       technos: "word",
       time: 19/6/2024,
     },
   ];
-
-  
 </script>
 
 <style scoped>
-.gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  width: 90px;
-  height: 90px;
+img {
+  width: 50px;
+  height: 50px;
 }
 
 h3 {

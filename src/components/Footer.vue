@@ -2,13 +2,13 @@
      <footer>
     <div class="logo_media">
       <a href="https://github.com/yleniastella11/" target="_blank">
-        <img src="@/assets/img/logo/github.png" alt="logo de GitHub">
+        <img src="@/assets/img/logo/github.svg" alt="logo de GitHub">
       </a>
       <a href="https://linkedin.com" target="_blank">
-        <img src="@/assets/img/logo/linkedin.png" alt="logo de Linkedin">
+        <img src="@/assets/img/logo/linkedin.svg" alt="logo de Linkedin">
       </a>
       <a href="https://instagram.com/yleniia.stella/" target="_blank">
-        <img src="@/assets/img/logo/instagram.jpeg" alt="logo de instagram">
+        <img src="@/assets/img/logo/instagram.png" alt="logo de instagram">
       </a>
     </div>
   </footer>
@@ -22,7 +22,7 @@ const logo = [
   },
   {
     title: "Linkedin",
-    image: "./assets/img/logo/linkedin.png",
+    image: "./assets/img/logo/linkedin.svg",
   },
   {
     title: "Instagram",
@@ -34,12 +34,13 @@ const logo = [
 <style scoped>
 footer {
   background-color: #69447D;
+  display: flex;
+  justify-content: center;
 }
 
-.logo-media {
-  display: inline-block;
+.logo {
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
 }
 </style>
