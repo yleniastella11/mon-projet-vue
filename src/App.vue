@@ -23,6 +23,7 @@ const logo = [
 </script>
 
 <style scoped>
+
 header {
   display: block;
   justify-content: center;
