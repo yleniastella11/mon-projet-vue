@@ -37,7 +37,7 @@ const img = [
 
 <style scoped>
 header {
-  display: block;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   line-height: 1.5;
@@ -55,8 +55,8 @@ header img {
   background-color: #A3547C;
   display: inline-block;
   justify-content: center;
-  width: 400px;
-  height: 400px;
+  width: 190px;
+  height: 190px;
   border-radius: 55%;
 }
 

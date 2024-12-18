@@ -33,17 +33,17 @@ const logo = [
 
 <style scoped>
 footer {
-  background-color: #69447D;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+  padding: 6rem;
 }
 
-.logo {
-  display: inline-flex;
+.logo_media {
+  background-color: #69447D;
+  display: inline-block;
+  justify-content: space-between;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  padding: 3rem;
-}
+  width: 35px;
+  height: 35px;
+} 
+
+
 </style>

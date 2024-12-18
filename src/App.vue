@@ -23,13 +23,11 @@ const logo = [
 </script>
 
 <style scoped>
-
 header {
-  display: block;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   line-height: 1.5;
-  margin: auto;
   padding: 0.01rem;
   background-color: #9899E8;
 }
@@ -45,8 +43,8 @@ header img {
   background-color: #A3547C;
   display: inline-block;
   justify-content: center;
-  width: 400px;
-  height: 400px;
+  width: 150px;
+  height: 150px;
   border-radius: 55%;
 }
 
@@ -76,10 +74,13 @@ address a {
 main {
   background-color: #2290A9;
   padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact {
-  width: 94.5%;
+  width: 50%;
   display: inline-block;
   justify-content: space-between;
   margin: auto 5px;
@@ -141,14 +142,16 @@ h4{
 
 footer {
   background-color: #69447D;
-}
-
-.logo-media {
-  display: inline-flex;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  padding: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  .logo_media {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .notfound {
