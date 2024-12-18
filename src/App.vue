@@ -153,22 +153,6 @@ footer {
   padding: 1rem;
 } 
 
-.logo_media a {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-} 
-
-.logo_media a {
-  display: inline-block;
-  justify-content: right;
-  align-items: right;
-  width: 50px;
-  height: 50px;
-} 
-
 .notfound {
   h1 {
     color: white;
