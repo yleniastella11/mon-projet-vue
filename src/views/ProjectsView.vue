@@ -3,34 +3,40 @@
       <h3>Mes projets</h3>
         <section v-for="project in projects">
           <h4>{{ project.title }}</h4>
-          <img :src="project.image" alt="">
+            <img :src="project.image" alt="projects.image">
         </section>
+        <button @click="openProject(project)">Ouvrir le projet</button>
     </div>
 </template>
 
 <script setup>
 const projects = [
-    {
-      title: "CV",
-      image: "./src/assets/img/cv.png",
-      technos : "html,css",
-      link: "https://github.com/yleniastella11/cv-main",
-      time: 3/7/2024,
-    },    
-    { 
-      title: "Dynamiser un espace commentaire",
-      image: "./src/assets/img/dynamiserunespacecommentaire.png",
-      technos: "javascript",
-      link: "https://github.com/yleniastella11/commentaire",
-      time: 30/8/2024,
-    },
-    {
-      title: "Le cahier des charges",
-      image: "./src/assets/img/lecahierdescharges.png",
-      technos: "word",
-      time: 19/6/2024,
-    },
-  ];
+  {
+    title: "CV",
+    image: "./src/assets/img/cv.png",
+    technos: "html, css",
+    link: "https://github.com/yleniastella11/cv-main",
+    time: "3/7/2024",
+  },
+  {
+    title: "Dynamiser un espace commentaire",
+    image: "./src/assets/img/dynamiserunespacecommentaire.png",
+    technos: "javascript",
+    link: "https://github.com/yleniastella11/commentaire",
+    time: "30/8/2024",
+  },
+  {
+    title: "Le cahier des charges",
+    image: "./src/assets/img/lecahierdescharges.png",
+    technos: "word",
+    time: "19/6/2024",
+  },
+];
+
+function openProject(project) {
+  alert(`Vous avez ouvert ${project.title} utilisant ${project.technos}`);
+}
+
 </script>
 
 <style scoped>
