@@ -142,17 +142,32 @@ h4{
 
 footer {
   background-color: #69447D;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  .logo_media {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    width: 35px;
-    height: 35px;
-  }
 }
+
+.logo_media a {
+  display: inline-block;
+  justify-content: left;
+  align-items: left;
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+} 
+
+.logo_media a {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+} 
+
+.logo_media a {
+  display: inline-block;
+  justify-content: right;
+  align-items: right;
+  width: 50px;
+  height: 50px;
+} 
 
 .notfound {
   h1 {
