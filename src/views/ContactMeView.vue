@@ -31,16 +31,20 @@ function messageSent() {
 
 <style scoped>
 h2 {
+  display: block;
+  justify-content: center;
+  text-align: center;
   color: black;
   background-color: #00b9b1;
+  padding: 2.5rem;
 }
 
 .contact {
   width: 94.5%;
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  justify-content: center;
   margin: auto 5px;
-  padding: 3rem;
+  padding: 5rem;
   line-height: 1.5;
 }
 </style>

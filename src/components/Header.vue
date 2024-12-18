@@ -63,12 +63,13 @@ header img {
 h2{
   color: black;
   text-align: center;
-  font-size: medium;
+  font-size: larger;
 }
 
 .address {
   color: white;
   background-color: #D89EF0;
+  padding: 1.5rem;
 }
 
 address a {

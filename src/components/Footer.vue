@@ -36,11 +36,14 @@ footer {
   background-color: #69447D;
   display: flex;
   justify-content: center;
+  padding: 1rem;
 }
 
 .logo {
+  display: inline-flex;
   align-items: center;
-  width: 75px;
-  height: 75px;
+  width: 30px;
+  height: 30px;
+  padding: 3rem;
 }
 </style>

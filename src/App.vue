@@ -75,14 +75,15 @@ address a {
 
 main {
   background-color: #2290A9;
+  padding: 1rem;
 }
 
 .contact {
   width: 94.5%;
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   margin: auto 5px;
-  padding: 3rem;
+  padding: 5rem;
   line-height: 1.5;
 }
 
@@ -93,12 +94,33 @@ p {
 }
 
 .gallery {
-  display: flex;
-  flex-direction: column;
+  img {
+  display: block;
   justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  }
+
+  h3 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   margin: auto;
-  width: 200px;
-  height: 200px;
+  padding: 1rem;
+  color: black;
+  background-color: #00b9b1;
+  }
+
+  h4{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  padding: 1rem;
+  }
 }
 
 h3 {
@@ -124,8 +146,9 @@ footer {
 .logo-media {
   display: inline-flex;
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
+  padding: 3rem;
 }
 
 .notfound {

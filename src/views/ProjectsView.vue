@@ -35,12 +35,16 @@ const projects = [
 
 <style scoped>
 img {
-  width: 50px;
-  height: 50px;
+  display: block;
+  justify-content: left;
+  width: 75px;
+  height: 75px;
 }
 
 h3 {
-  text-align: center;
+  display: block;
+  justify-content: left;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
   margin: auto;
   padding: 1rem;
@@ -49,7 +53,9 @@ h3 {
 }
 
 h4{
-  text-align: center;
+  display: block;
+  justify-content: left;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
   margin: auto;
   padding: 1rem;
