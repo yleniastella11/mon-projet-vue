@@ -34,15 +34,14 @@ const logo = [
 <style scoped>
 footer {
   background-color: #69447D;
+  max-height: 80px;
 }
 
 .logo_media a {
   display: inline-block;
-  justify-content: left;
-  align-items: left;
+  align-items: center;
   width: 50px;
   height: 50px;
   padding: 1rem;
-} 
-
+}
 </style>
