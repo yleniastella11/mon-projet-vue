@@ -51,11 +51,11 @@ img {
 
 h3 {
   display: block;
-  justify-content: left;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  margin: auto;
-  padding: 1rem;
+  font-size: medium;
+  padding: 0.5rem;
   color: black;
   background-color: #00b9b1;
 }

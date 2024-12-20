@@ -39,9 +39,10 @@ footer {
 
 .logo_media a {
   display: inline-block;
+  justify-content: center;
   align-items: center;
   width: 50px;
   height: 50px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 </style>

@@ -37,6 +37,7 @@ h2 {
   color: black;
   background-color: #00b9b1;
   padding: 0.2rem;
+  font-size: medium;
 }
 
 .contact {
