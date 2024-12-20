@@ -2,7 +2,7 @@
   <div class="notfound">
     <h1>Erreur 404</h1>
     <figure>
-      <a href="./src/assets/img/erreur-page-404.png">
+      <a href="./assets/img/erreur-page-404.png">
         <img src="@/assets/img/erreur-page-404.png" alt="Photo de la page 404">
       </a>
     </figure>

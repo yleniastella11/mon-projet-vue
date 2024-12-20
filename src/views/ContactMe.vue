@@ -36,7 +36,7 @@ h2 {
   text-align: center;
   color: black;
   background-color: #00b9b1;
-  padding: 2.5rem;
+  padding: 0.2rem;
 }
 
 .contact {
@@ -44,7 +44,7 @@ h2 {
   display: inline-block;
   justify-content: center;
   margin: auto 5px;
-  padding: 5rem;
+  padding: 1.5rem;
   line-height: 1.5;
 }
 </style>

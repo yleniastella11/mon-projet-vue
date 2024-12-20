@@ -1,28 +1,11 @@
 <template>
-    <div class="logo">
-      <a href="./src/assets/logo.svg" target="_blank">
-        <img src="./src/assets/logo.svg" alt="logo">
-      </a>
-    </div>
+  <AboutMe />
+  <Projects />
+  <ContactMe />
 </template>
 
 <script setup>
-const logo = [
-  {
-    title: "link-img",
-    image: "./src/assets/logo.svg",
-  },
-  ];
-  // Affciher le logo au survol
-
+import AboutMe from './AboutMe.vue';
+import ContactMe from './ContactMe.vue';
+import Projects from './Projects.vue';
 </script>
-
-<style scoped>
-.logo {
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-}
-</style>
-

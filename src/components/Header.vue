@@ -32,7 +32,13 @@ const img = [
     title: "profile-picture",
     image: "./assets/profile-picture.jpg"
   },
-  ];
+];
+const logo = [
+  {
+    title: "logo",
+    image: "./assets/img/logo.svg",
+  },
+];
 </script>
 
 <style scoped>
@@ -69,7 +75,7 @@ h2{
 .address {
   color: white;
   background-color: #D89EF0;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 address a {

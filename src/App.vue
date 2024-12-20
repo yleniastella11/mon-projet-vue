@@ -10,14 +10,15 @@
 </template>
 
 <script setup>
+import Home from "./views/HomeView.vue";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import { RouterView } from "vue-router";
-import Contact from "./views/ContactMeView.vue"
+
 const logo = [
   {
     title: "link-img",
-    image: "src/assets/logo.svg",
+    image: "./assets/logo.svg",
   },
   ];
 </script>
@@ -51,6 +52,7 @@ header img {
 .address {
   color: white;
   background-color: #D89EF0;
+  padding: 1rem;
 }
 
 address a {
@@ -84,7 +86,7 @@ main {
   display: inline-block;
   justify-content: space-between;
   margin: auto 5px;
-  padding: 5rem;
+  padding: 1.5rem;
   line-height: 1.5;
 }
 

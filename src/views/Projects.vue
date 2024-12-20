@@ -34,9 +34,9 @@ const projects = [
 ];
 
 function openProject(project) {
-  alert(`Vous avez ouvert ${project.cv} utilisant ${project.technos}`);
-  alert(`Vous avez ouvert ${project.dynamiserunespacecommentaire} utilisant ${project.technos}`);
-  alert(`Vous avez ouvert ${project.lecahierdescharges} utilisant ${project.technos}`);
+  alert(`Vous avez ouvert ${project.cv}`);
+  alert(`Vous avez ouvert ${project.dynamiserunespacecommentaire}`);
+  alert(`Vous avez ouvert ${project.lecahierdescharges}`);
 }
 
 </script>
