@@ -4,8 +4,8 @@
         <section v-for="project in projects">
           <h4>{{ project.title }}</h4>
             <img :src="project.image" alt="projects.image">
+            <button @click.exact="onClick">Afficher l'image</button>
         </section>
-        <button @click="openProject(project)">Ouvrir le projet</button>
     </div>
 </template>
 
@@ -33,18 +33,21 @@ const projects = [
   },
 ];
 
-function openProject(project) {
-  alert(`Vous avez ouvert ${project.cv}`);
-  alert(`Vous avez ouvert ${project.dynamiserunespacecommentaire}`);
-  alert(`Vous avez ouvert ${project.lecahierdescharges}`);
-}
 
+const onClick = () => {
+  console.log('Le projet est ouvert !');
+};
 </script>
 
 <style scoped>
+button {
+  color: black; 
+  padding: 12px; 
+  border: none; 
+  border-radius: 5px; 
+}
 img {
   display: block;
-  justify-content: left;
   width: 75px;
   height: 75px;
 }
@@ -62,7 +65,6 @@ h3 {
 
 h4{
   display: block;
-  justify-content: left;
   text-align: left;
   font-family: 'Times New Roman', Times, serif;
   margin: auto;
