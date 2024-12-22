@@ -1,15 +1,27 @@
 <template>
-    <div class="gallery">
-      <h3>Mes projets</h3>
-        <section v-for="project in projects">
-          <h4>{{ project.title }}</h4>
-            <img :src="project.image" alt="projects.image">
-            <button @click.exact="onClick">Voir plus</button>
-        </section>
+  <div>
+    <div v-for="project in projects" :key="project.title">
+      <h3>{{ project.title }}</h3>
+      <img 
+        :src="project.image" 
+        :alt="project.title" 
+        @click="openModal(project.image)" 
+        style="cursor: pointer; width: 100px; height: auto;" 
+      />
+      <p>{{ project.technos }}</p>
+      <p>{{ project.time }}</p>
     </div>
+
+    <!-- Modal pour afficher l'image agrandie -->
+    <div v-if="isModalOpen" class="modal" @click="closeModal">
+      <img :src="currentImage" class="modal-image" />
+    </div>
+  </div>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+
 const projects = [
   {
     title: "CV",
@@ -33,21 +45,39 @@ const projects = [
   },
 ];
 
+const isModalOpen = ref(false);
+const currentImage = ref('');
 
-const onClick = () => {
-  console.log('Le projet est ouvert !');
+const openModal = (image) => {
+  currentImage.value = image;
+  isModalOpen.value = true;
+};
+
+const closeModal = () => {
+  isModalOpen.value = false;
+  currentImage.value = '';
 };
 </script>
 
 <style scoped>
-button {
-  color: black; 
-  padding: 12px; 
-  border: none; 
-  border-radius: 5px; 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
 }
 img {
-  display: block;
+  display: inline-block;
   width: 75px;
   height: 75px;
 }
