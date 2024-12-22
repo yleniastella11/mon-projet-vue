@@ -4,7 +4,7 @@
         <section v-for="project in projects">
           <h4>{{ project.title }}</h4>
             <img :src="project.image" alt="projects.image">
-            <button @click.exact="onClick">Afficher l'image</button>
+            <button @click.exact="onClick">Voir plus</button>
         </section>
     </div>
 </template>
