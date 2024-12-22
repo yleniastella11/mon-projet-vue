@@ -10,9 +10,10 @@
       />
       <p>{{ project.technos }}</p>
       <p>{{ project.time }}</p>
+      <a :href="project.link" target="_blank">Voir le projet</a>
     </div>
 
-    <!-- Modal pour afficher l'image agrandie -->
+    
     <div v-if="isModalOpen" class="modal" @click="closeModal">
       <img :src="currentImage" class="modal-image" />
     </div>
