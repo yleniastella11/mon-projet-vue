@@ -78,8 +78,8 @@ const closeModal = () => {
 }
 img {
   display: inline-block;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
 }
 
 h3 {
