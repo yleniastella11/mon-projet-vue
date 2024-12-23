@@ -46,7 +46,6 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  line-height: 1.5;
   margin: auto;
   padding: 0.01rem;
 }
@@ -61,8 +60,8 @@ header img {
   background-color: #A3547C;
   display: inline-block;
   justify-content: center;
-  width: 190px;
-  height: 190px;
+  width: 250px;
+  height: 250px;
   border-radius: 55%;
 }
 

@@ -35,6 +35,10 @@ const logo = [
 footer {
   background-color: #69447D;
   max-height: 80px;
+  padding: 10px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo_media a {
