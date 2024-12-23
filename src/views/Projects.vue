@@ -74,13 +74,13 @@ const closeModal = () => {
 }
 
 .modal-image {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 img {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 h3 {
