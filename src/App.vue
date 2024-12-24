@@ -43,8 +43,8 @@ header img {
   background-color: #A3547C;
   display: inline-block;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 235px;
   border-radius: 55%;
 }
 

@@ -60,8 +60,8 @@ header img {
   background-color: #A3547C;
   display: inline-block;
   justify-content: center;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 235px;
   border-radius: 55%;
 }
 
