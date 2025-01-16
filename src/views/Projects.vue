@@ -12,11 +12,9 @@
       <p>{{ project.time }}</p>
       <a :href="project.link" target="_blank">Voir le projet</a>
     </div>
-
-    
     <div v-if="isModalOpen" class="modal" @click="closeModal">
-      <img :src="currentImage" class="modal-image" />
-    </div>
+    <img :src="currentImage" class="modal-image" />
+  </div>
   </div>
 </template>
 

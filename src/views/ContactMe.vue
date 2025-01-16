@@ -24,8 +24,10 @@
 </template> 
 
 <script setup>
-function messageSent() {
-  alert("Formulaire enbvoyé !");
+const emailAddress = import.meta.env.VITE_EMAIL_ADRESS;
+
+function SendEmail() {
+  alert("Message envoyé à " + emailAddress);
 }
 </script>
 
