@@ -62,7 +62,7 @@ header img {
   justify-content: center;
   width: 220px;
   height: 235px;
-  border-radius: 55%;
+  border-radius: 50%;
 }
 
 h2{

@@ -13,13 +13,6 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import { RouterView } from "vue-router";
-
-const logo = [
-  {
-    title: "link-img",
-    image: "./assets/logo.svg",
-  },
-  ];
 </script>
 
 <style scoped>
@@ -45,7 +38,7 @@ header img {
   justify-content: center;
   width: 220px;
   height: 235px;
-  border-radius: 55%;
+  border-radius: 50%;
 }
 
 .address {
@@ -176,3 +169,7 @@ footer {
   }
 }
 </style>
+
+
+
+

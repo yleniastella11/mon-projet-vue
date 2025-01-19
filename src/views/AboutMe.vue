@@ -1,5 +1,6 @@
 <template>
-  <div class="aboutme">
+  <main>
+    <div class="aboutme">
     <p>
     Je m'appelle Stella Ylenia, j'apprends le développement web via le CEF. 
     Avant de me lancer dans cette formation, je voulais entrer dans la gendarmerie mais ayant eu un petit soucis au niveau de ma santé physique après une opération de la main quelques années auparavant, j'ai dû me résoudre abandonner ce projet. 
@@ -16,8 +17,9 @@
     <p>
     Je suis tombée sur une vidéo parlant du développement web. Je me suis d'abord informée sur ce métier pendant plusieurs mois avant de me lancer.
     Après plusieurs mois de réfléxion, je me suis donc lancée dans la formation de développeuse web via le CEF. Je souhaite me perfectionner dans ce domaine qui m'intéresse de plus en plus. Je vous laisse mes projets déjà réalisés via le CEF que vous pourrez visionner.
-  </p> 
-</div>
+    </p> 
+  </div>
+  </main>
 </template>
 
 <style scoped>

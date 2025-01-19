@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <main>
+    <div>
     <div v-for="project in projects" :key="project.title">
       <h3>{{ project.title }}</h3>
       <img 
@@ -14,8 +15,9 @@
     </div>
     <div v-if="isModalOpen" class="modal" @click="closeModal">
     <img :src="currentImage" class="modal-image" />
-  </div>
-  </div>
+    </div>
+   </div>
+  </main>
 </template>
 
 <script setup>

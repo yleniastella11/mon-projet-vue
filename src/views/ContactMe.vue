@@ -1,4 +1,5 @@
 <template>
+  <main>
     <div id="contact">
       <h2>Me contacter</h2>
       <form>
@@ -21,6 +22,8 @@
           <textarea name="" id="message"></textarea>
       </form>
     </div>
+  </main>
+    
 </template> 
 
 <script setup>
